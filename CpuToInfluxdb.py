@@ -8,8 +8,6 @@ import time,math,random
 p1=psutil.Process(os.getpid()) 
 
 
-from influxdb import InfluxDBClient
-import time,math,random
 while True:
     a = psutil.virtual_memory().percent  #内存占用率
 
